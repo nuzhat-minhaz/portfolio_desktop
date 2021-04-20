@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+.topnav{
+        text-align: right;
+        font-family: raleway;
+        color: white;
+        background-color: black;
+        height: 40px;
+        margin: 0px;
+        padding: 5px;
+        padding-right: 20px;
+        padding-top: 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        border-bottom: 1px solid rgb(165, 52, 80);
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.1;
+    }
+
+.body-container{
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 10% 30% 50% 10%;
+    grid-template-areas:
+    'space1 sorry sorry2 space2';
+}
+
+.space1{
+    grid-area: space1;
+    background-color: black;
+}
+.space2{
+    grid-area: space2;
+    background-color: black;
+}
+
+.sorry{
+    grid-area: sorry;
+    color: white;
+    background-color: black;
+    font-family: raleway;
+    
+}
+
+.sorry2{
+    grid-area: sorry2;
+    color: white;
+    background-color: black;
+    font-family: raleway;
+    border-left: 1px solid grey;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+h2{
+    font-size: 1.2em;
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+}
+h3{
+    padding: 0px;
+    padding-left: 40px;
+    font-size: 1.3em;
+    font-weight: 300;
+    
+}
+#sorry1{
+    padding:1px;
+    padding-left: 40px;
+}
+
+
+#sorry1 a:link{
+    color:rgb(212, 83, 100);
+}
+
+#sorry1 a:visited {
+            color: rgb(248, 113, 131);
+            text-decoration: none;
+    
+        }
+    
+    #sorry1 a:hover {
+            color: rgb(214, 58, 71);
+            text-decoration: none;
+
+    
+        }
+    
+    #sorry1 a:active {
+            color: rgb(214, 33, 72);
+            text-decoration: none;
+        }
+    
+
+a:link {
+       color: white;
+       text-decoration: none;
+  
+   }
+
+   a:visited {
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+
+   }
+
+   a:hover {
+       color: rgb(138, 138, 138);
+       text-decoration: underline;
+
+   }
+
+   a:active {
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+   }
+
+
